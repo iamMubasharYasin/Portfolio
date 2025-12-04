@@ -44,7 +44,7 @@
 
    
 
-    <!-- Skills Section -->
+    @* <!-- Skills Section -->
     <section id="skills" class="skills section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -110,7 +110,120 @@
 
         </div>
 
-    </section><!-- /Skills Section -->
+    </section>
+    <!-- /Skills Section --> *@
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+        <!-- Inline CSS (NOT SEPARATE) -->
+        <style>
+            .skills-card {
+                border-radius: 30px;
+            }
+            .skill-box {
+                background: #f5f6f8;
+                padding: 12px 18px;
+                border-radius: 12px;
+                font-weight: 500;
+                text-align: center;
+            }
+            .icon-box {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 12px;
+                background: linear-gradient(135deg, #8a2be2, #ff007f);
+                color: white;
+                font-size: 18px;
+            }
+        </style>
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Skills</h2>
+            <div class="title-shape">
+                <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+                </svg>
+            </div>
+            <p>Here are the technical skills and tools I work with across different domains.</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="skills-card shadow-lg p-5 rounded-4 bg-white">
+
+                <!-- Programming Languages -->
+                <div class="section-title d-flex align-items-center mb-4">
+                    <div class="icon-box me-2">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h4 class="fw-bold m-0">Programming Languages</h4>
+                </div>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-2"><div class="skill-box">C/C++</div></div>
+                    <div class="col-md-2"><div class="skill-box">C#.NET</div></div>
+                    <div class="col-md-2"><div class="skill-box">Python</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">Java</div></div>
+                    <div class="col-md-2"><div class="skill-box">HTML</div></div>
+                    <div class="col-md-2"><div class="skill-box">CSS</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">TypeScript</div></div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="section-title d-flex align-items-center mt-5 mb-3">
+                    <div class="icon-box me-2">
+                        <i class="bi bi-braces"></i>
+                    </div>
+                    <h4 class="fw-bold m-0">Frameworks</h4>
+                </div>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-2"><div class="skill-box">.NET Core</div></div>
+                    <div class="col-md-2"><div class="skill-box">Blazor.NET</div></div>
+                    <div class="col-md-2"><div class="skill-box">.NET MAUI</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">EFCore</div></div>
+                    <div class="col-md-2"><div class="skill-box">Restful API</div></div>
+                    <div class="col-md-2"><div class="skill-box">Angular</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">BootStrap</div></div>
+                </div>
+
+                <!-- Tools -->
+                <div class="section-title d-flex align-items-center mt-5 mb-3">
+                    <div class="icon-box me-2">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <h4 class="fw-bold m-0">Tools</h4>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-2"><div class="skill-box">Visual Studio</div></div>
+                    <div class="col-md-2"><div class="skill-box">VS Code</div></div>
+                    <div class="col-md-2"><div class="skill-box">JetBrain Rider</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">GitHub (Version Control)</div></div>
+                    <div class="col-md-2"><div class="skill-box">Azure</div></div>
+                    <div class="col-md-2"><div class="skill-box">YouTrack (Project Management)</div></div>
+
+                    <div class="col-md-2"><div class="skill-box">Jira (Project Management)</div></div>
+                    <div class="col-md-2"><div class="skill-box">MS - SQL (Database)</div></div>
+                    <div class="col-md-2"><div class="skill-box">My - SQL (Database)</div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Skills Section -->
     <!-- Resume Section -->
     <section id="resume" class="resume section">
 
