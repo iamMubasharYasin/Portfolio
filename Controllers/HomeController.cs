@@ -35,5 +35,10 @@ namespace MyPortfolio.Controllers
         {
             return View();
         }
+
+        public IActionResult ServicesDetails()
+        {
+            return View();
+        }
     }
 }
